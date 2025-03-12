@@ -1,0 +1,23 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding-top: 50px;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+/* Style activé après le code Konami */
+body.konami {
+    background-color: #001F3F; /* Bleu foncé */
+    color: white;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
