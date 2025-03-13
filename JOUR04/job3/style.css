@@ -1,0 +1,58 @@
+
+/* Style pour la liste des Pokémon */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center; 
+}
+    /* Style pour le formulaire et la liste */
+    form {
+        margin-bottom: 20px;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    input, select, button {
+        margin-bottom: 10px;
+        padding: 5px;
+        font-size: 1rem;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    li {
+        padding: 10px;
+        border: 1px solid #ccc;
+        margin-bottom: 5px;
+    }
+
+
+#filterform{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+#filterform label{
+    margin: 0;
+}
+
+#filterform input, #filterform select{
+    margin: 0;
+}
+
+.filter{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
