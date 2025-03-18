@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LaPlateforme_</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+      .active-item {
+        background-color: #007bff !important;
+        color: white !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid text-bg-secondary p-3">
+      <div class="container-fluid text-start">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">LPFT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://laplateforme.io">Accueil</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Units</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Jobs</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Skills</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="container-fluid">
+        <h1 class="container-fluid text-center">La Plateforme_</h1><br><br>
+        <div class="row">
+          <div class="card" style="width: 18rem;">
+            <img src="téléchargement.jpg" class="card-img-top" alt="papillon">
+            <div class="card-body">
+              <h5 class="card-title">Un papillon</h5>
+              <p class="card-text">Un papillon, c'est un peu comme une chenille, mais avec des ailes. Ne pas oublier de mentionner qu'il fait partie des insectes lépidoptères</p>
+              <button id="buy-butterfly" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#butterflyModal">Commandez votre propre papillon</button>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Bonjour, monde!</h5>
+                <p id="jumbotron-content">Il existe plusieurs définitions du terme monde, qui désigne chacun des univers possibles, réels ou fictifs, et tout ce qui existe ou peut exister dans un univers donné.</p><hr>
+                <p>Il peut aussi désigner l'ensemble des êtres vivants, ou encore l'univers dans son ensemble.</p><hr>
+                <button id="reboot-world" type="button" class="btn btn-danger">Rebooter le monde!</button> <br><br>
+              </div>
+              <nav aria-label="Page navigation example text-end">
+                <ul class="pagination justify-content-end">
+                  <li class="page-item"><a class="page-link" href="#" id="page-prev">Previous</a></li>
+                  <li class="page-item"><a class="page-link" href="#" id="page-1">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#" id="page-2">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#" id="page-3">3</a></li>
+                  <li class="page-item"><a class="page-link" href="#" id="page-next">Next</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="card">
+              <div class="card-header">
+                <li class="list-group-item">Limbres</li>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Luxyry</li>
+                <li class="list-group-item">Gourmandises</li>
+                <li class="list-group-item">Colère</li>
+                <li class="list-group-item">Violence</li>
+                <li class="list-group-item">Trahison</li>
+                <li class="list-group-item">Avarice</li>
+                <li class="list-group-item">Envie</li>
+              </ul>
+            </div>
+          </div>
+        </div> <br><br>
+        <div class="container-fluid text-end">
+          <h6>Installation de IA9000</h6>
+          <div class="progress" role="progressbar" aria-label="Warning striped example" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+            <div id="progress-bar" class="progress-bar progress-bar-striped bg-warning" style="width: 85%"></div>
+          </div>
+          <div class="mt-2">
+            <button id="progress-less" class="btn btn-secondary">←</button>
+            <button id="progress-more" class="btn btn-secondary">→</button>
+          </div>
+          <br><br>
+          <h4 class="text-center mt-4">Recevez votre copie gratuite d’Internet 2!</h4>
+          <div class="row mt-4 justify-content-between">
+            <div class="col-md-6 offset-md-3">
+              <form id="main-form">
+                <div class="form-group">
+                  <div class="input-group flex-nowrap">
+                    <span class="input-group-text" id="addon-wrapping">@</span>
+                    <input type="text" class="form-control" placeholder="login" aria-label="login" aria-describedby="addon-wrapping">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="motDePause">Mot de Passe</label>
+                  <input type="password" class="form-control" id="motDePasse" placeholder="name@example.com" value="mdo@example.com">
+                </div>
+                <div class="form-group">
+                  <label for="exampleEmail">Email address</label>
+                  <input type="email" class="form-control" id="exampleEmail" aria-describedby="emailHelp" placeholder="Entrez votre email">
+                  <small id="emailHelp" class="form-text text-muted">We’ll never share your email with anyone else.</small>
+                </div>
+                <div class="form-floating">
+                  <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                  <label for="floatingPassword">Password</label>
+                </div>
+                <div class="form-group form-check">
+                  <input type="checkbox" class="form-check-input" id="checkMeOut">
+                  <label class="form-check-label" for="checkMeOut">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col-md-6 offset-md-3">
+              <h3>URL des Internet: 2 et 2.1 Beta</h3>
+              <ul class="list-group">
+                <li class="list-group-item">DogeCoin</li><br>
+                <li class="list-group-item text-end"><a href="https://1231.git/double/dogecoin/" target="_blank">https://1231.git/double/dogecoin/</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="modal fade" id="butterflyModal" tabindex="-1" aria-labelledby="butterflyModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="butterflyModalLabel">Confirmation d'achat</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Votre papillon a été commandé avec succès!
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script>
+         $(document).ready(function() {
+        // Rebooter le Monde
+        $('#reboot-world').click(function() {
+          const quotes = [
+            "Tous ces moments se perdront dans l'oubli, comme des larmes dans la pluie.",
+            "J'ai vu des choses que vous, les humains, ne pourriez pas croire..."
+          ];
+          const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+          $('#jumbotron-content').text(randomQuote);
+        });
+        });</script>
+  </body>
+</html>
