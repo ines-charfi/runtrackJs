@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Création de Compte</title>
+    <!-- CDN Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- CDN pour les icônes (Heroicons) -->
+    <script src="https://unpkg.com/heroicons"></script>
+</head>
+<body class="bg-pink-50">
+    <!-- Header -->
+    <header class="bg-pink-200 text-pink-800 py-4 shadow-lg">
+        <nav class="container mx-auto flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold">MonSite</a>
+            <ul class="flex space-x-6">
+                <li><a href="index.html" class="hover:text-pink-600">Accueil</a></li>
+                <li><a href="index.html" class="hover:text-pink-600">Inscription</a></li>
+                <li><a href="index.html" class="hover:text-pink-600">Connexion</a></li>
+                <li><a href="index.html" class="hover:text-pink-600">Rechercher</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Formulaire de création de compte -->
+    <section class="container mx-auto my-8 p-6 bg-white rounded-lg shadow-md max-w-2xl">
+        <h1 class="text-3xl font-bold text-center mb-6 text-pink-700">Création de Compte</h1>
+        <form class="space-y-6">
+            <!-- Civilité -->
+            <div>
+                <label class="block text-pink-700">Civilité</label>
+                <div class="mt-2 flex space-x-4">
+                    <label class="inline-flex items-center">
+                        <input type="radio" name="civilite" value="Monsieur" class="form-radio text-pink-500">
+                        <span class="ml-2">Monsieur</span>
+                    </label>
+                    <label class="inline-flex items-center">
+                        <input type="radio" name="civilite" value="Madame" class="form-radio text-pink-500">
+                        <span class="ml-2">Madame</span>
+                    </label>
+                </div>
+            </div>
+
+            <!-- Prénom -->
+            <div>
+                <label for="prenom" class="block text-pink-700">Prénom</label>
+                <div class="mt-1 relative rounded-md shadow-sm">
+                    <input type="text" id="prenom" name="prenom" class="w-full p-2 border border-pink-300 rounded-md focus:ring-pink-500 focus:border-pink-500" placeholder="Votre prénom">
+                    <i class="absolute right-3 top-3 text-pink-400"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M10 2a5 5 0 015 5v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2V9a2 2 0 012-2h2V7a5 5 0 015-5z"/></svg></i>
+                </div>
+            </div>
+
+            <!-- Nom -->
+            <div>
+                <label for="nom" class="block text-pink-700">Nom</label>
+                <div class="mt-1 relative rounded-md shadow-sm">
+                    <input type="text" id="nom" name="nom" class="w-full p-2 border border-pink-300 rounded-md focus:ring-pink-500 focus:border-pink-500" placeholder="Votre nom">
+                    <i class="absolute right-3 top-3 text-pink-400"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M10 2a5 5 0 015 5v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2V9a2 2 0 012-2h2V7a5 5 0 015-5z"/></svg></i>
+                </div>
+            </div>
+
+            <!-- Adresse -->
+            <div>
+                <label for="adresse" class="block text-pink-700">Adresse</label>
+                <div class="mt-1 relative rounded-md shadow-sm">
+                    <input type="text" id="adresse" name="adresse" class="w-full p-2 border border-pink-300 rounded-md focus:ring-pink-500 focus:border-pink-500" placeholder="Votre adresse">
+                    <i class="absolute right-3 top-3 text-pink-400"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M10 2a5 5 0 015 5v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2V9a2 2 0 012-2h2V7a5 5 0 015-5z"/></svg></i>
+                </div>
+            </div>
+
+            <!-- Email -->
+            <div>
+                <label for="email" class="block text-pink-700">Email</label>
+                <div class="mt-1 relative rounded-md shadow-sm">
+                    <input type="email" id="email" name="email" class="w-full p-2 border border-pink-300 rounded-md focus:ring-pink-500 focus:border-pink-500" placeholder="Votre email">
+                    <i class="absolute right-3 top-3 text-pink-400"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/></svg></i>
+                </div>
+            </div>
+
+            <!-- Mot de passe -->
+            <div>
+                <label for="password" class="block text-pink-700">Mot de passe</label>
+                <div class="mt-1 relative rounded-md shadow-sm">
+                    <input type="password" id="password" name="password" class="w-full p-2 border border-pink-300 rounded-md focus:ring-pink-500 focus:border-pink-500" placeholder="Votre mot de passe">
+                    <i class="absolute right-3 top-3 text-pink-400"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M10 2a5 5 0 015 5v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2V9a2 2 0 012-2h2V7a5 5 0 015-5z"/></svg></i>
+                </div>
+            </div>
+
+            <!-- Confirmation du mot de passe -->
+            <div>
+                <label for="confirm_password" class="block text-pink-700">Confirmer le mot de passe</label>
+                <div class="mt-1 relative rounded-md shadow-sm">
+                    <input type="password" id="confirm_password" name="confirm_password" class="w-full p-2 border border-pink-300 rounded-md focus:ring-pink-500 focus:border-pink-500" placeholder="Confirmez votre mot de passe">
+                    <i class="absolute right-3 top-3 text-pink-400"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path d="M10 2a5 5 0 015 5v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2V9a2 2 0 012-2h2V7a5 5 0 015-5z"/></svg></i>
+                </div>
+            </div>
+
+            <!-- Passions -->
+            <div>
+                <label class="block text-pink-700">Passions</label>
+                <div class="mt-2 space-y-2">
+                    <label class="inline-flex items-center">
+                        <input type="checkbox" name="passions" value="informatique" class="form-checkbox text-pink-500">
+                        <span class="ml-2">Informatique</span>
+                    </label>
+                    <label class="inline-flex items-center">
+                        <input type="checkbox" name="passions" value="voyages" class="form-checkbox text-pink-500">
+                        <span class="ml-2">Voyages</span>
+                    </label>
+                    <label class="inline-flex items-center">
+                        <input type="checkbox" name="passions" value="sport" class="form-checkbox text-pink-500">
+                        <span class="ml-2">Sport</span>
+                    </label>
+                    <label class="inline-flex items-center">
+                        <input type="checkbox" name="passions" value="lecture" class="form-checkbox text-pink-500">
+                        <span class="ml-2">Lecture</span>
+                    </label>
+                </div>
+            </div>
+
+            <!-- Bouton de validation -->
+            <div>
+                <button type="submit" class="w-full bg-pink-500 text-white py-2 px-4 rounded-md hover:bg-pink-600 focus:outline-none focus:ring-2 focus:ring-pink-500">
+                    Valider
+                </button>
+            </div>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-pink-200 text-pink-800 py-4 mt-8">
+        <div class="container mx-auto text-center">
+            <ul class="flex justify-center space-x-6">
+                <li><a href="index.html" class="hover:text-pink-600">Accueil</a></li>
+                <li><a href="index.html" class="hover:text-pink-600">Inscription</a></li>
+                <li><a href="index.html" class="hover:text-pink-600">Connexion</a></li>
+                <li><a href="index.html" class="hover:text-pink-600">Rechercher</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
