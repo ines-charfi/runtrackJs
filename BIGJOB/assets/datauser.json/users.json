@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Meriam",
+        "email": "meriam@laplateforme.io",
+        "password": "password",
+        "role": "admin"
+    },
+    {
+        "name": "Ines",
+        "email": "ines@laplateforme.io",
+        "password": "password",
+        "role": "moderator"
+    },
+    {
+        "name": "Charlie",
+        "email": "charlie@laplateforme.io",
+        "password": "password",
+        "role": "user"
+    },
+    {
+        "name": "Alex",
+        "email": "alex@laplateforme.io",
+        "password": "1234",
+        "role": "user"
+    },
+    {
+        "name": "Saja",
+        "email": "saja@laplateforme.io",
+        "password": "password",
+        "role": "admin"
+    },
+    {
+        "name": "Chahd",
+        "email": "chahd@gmail.com",
+        "password": "password",
+        "role": "moderator"
+    },
+    {
+        "name": "Momo",
+        "email": "momo@laplateforme.io",
+        "password": "password",
+        "role": "admin"
+    },
+    {
+        "name": "Jiji",
+        "email": "jiji@laplateforme.io",
+        "password": "password",
+        "role": "user"
+    }
+]
