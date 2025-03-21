@@ -12,7 +12,10 @@ document.addEventListener('DOMContentLoaded', function () {
         const users = [
             { name: 'Meriam', email: 'meriam@laplateforme.io', status: 'Accepté' },
             { name: 'Ines', email: 'ines@laplateforme.io', status: 'En attente' },
-            { name: 'Charlie', email: 'charlie@laplateforme.io', status: 'Refusé' }
+            { name: 'Chahd', email: 'chahd@laplateforme.io', status: 'Refusé' },
+            { name: 'Saja', email: 'saja@laplateforme.io', status: 'Accepté' },
+            { name: 'teta', email: 'teta@laplateforme.io', status: 'En attente' },
+            { name: 'Momo', email: 'momo@laplateforme.io', status: 'Refusé' }
         ];
 
         const usersTable = document.getElementById('usersTable');
