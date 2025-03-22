@@ -8,10 +8,10 @@ document.getElementById('loginForm').addEventListener('submit', function (event)
     // Simuler une vérification d'email et de mot de passe
     const users = [
         { email: 'meriam@laplateforme.io', password: 'password', role: 'admin' },
-        { email: 'ines@laplateforme.io', password: 'password', role: 'moderator' },
-        { email: 'teta@laplateforme.io', password: 'password', role: 'user' },
-        { email: 'saja@laplateforme.io', password: 'password', role: 'admin' },
-        { email: 'chahd@laplateforme.io', password: 'password', role: 'moderator' },
+        { email: 'ines@laplateforme.io', password: '2610', role: 'moderator' },
+        { email: 'momo@laplateforme.io', password: '1234', role: 'user' },
+        { email: 'saja@laplateforme.io', password: 'SAJA2101', role: 'admin' },
+        { email: 'chahd@laplateforme.io', password: 'password', role: 'user' },
         { email: 'jiji@laplateforme.io', password: 'password', role: 'user' }
     ];
 
